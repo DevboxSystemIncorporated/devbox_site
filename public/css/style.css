@@ -1,0 +1,244 @@
+/* ALL */
+
+	body {
+	background-color: white;
+	font-family: Roboto-Regular;
+	color: white;
+	font-size: 16px;
+	width: 100%;
+	}
+
+/* NAVBAR */
+	.navbar-toggler,
+	.navbar-toggler:hover,
+	.navbar-toggler:focus {
+		border: none;
+		background: transparent !important;
+		outline: none;
+
+	}
+
+	.my_nav_button > div{
+		background-color: #f39c12;
+		width: 34px;
+		margin: 4px;
+		border-radius: 50px;
+		transition: all .4s;
+	}
+
+	.my_nav_button.is-active {
+		
+		margin: 15px;
+		margin-right: 0px;
+		margin-top: -10px;
+	}
+	.my_nav_button.is-active {
+		margin: 0px;
+	}
+	.my_nav_button.is-active > div:nth-child(1){
+		height: 5px;
+	    width: 15px;
+	    margin: -11px;
+	    transform: rotate(-45deg);
+	    margin-left: 8px;
+	    margin-bottom: 5px;
+	}
+	.my_nav_button.is-active > div:nth-child(2){
+		height: 5px;
+	    width: 34px;
+	    margin: 4px;
+	    transform: rotate(90deg);
+	}
+	.my_nav_button.is-active > div:nth-child(3){
+		height: 5px;
+	    width: 15px;
+	    margin: 4px;
+	    transform: rotate(45deg);
+	    margin-left: 19px;
+	    margin-top: -19px;
+	}
+
+	.nav_logo{
+		height: 47px;
+		width: auto;
+		margin-left: 0; 
+		position: relative;
+	}
+
+	.nav_logo_name {
+		height: 18.5px;
+	}
+	
+
+	.my_navbar {
+		background-color: #262626;
+	}
+
+	.my_nav_link{
+		color: #ecf0f1 !important;
+		margin-right: 15px;
+		margin-left: 20px;
+		font-size: 17px;
+	}
+	.my_nav_link:hover{
+		color: #95a5a6 !important;
+	}
+
+	
+/* PAGE SECTIONS */
+	/* SECTION HOME */
+		
+		
+	
+	/* SECTION ABOUT */
+		.section_about {
+			position: relative;
+			background-color: #f39c12; 
+			padding-top: 30px;
+			padding-bottom: 40px;
+		}
+
+		.contact_logo {
+			height: 23px;
+			margin: 7px;
+			margin-left: 8%;
+		}
+
+	/* CONTACTS SECTION */
+		.contact_container {
+			background-image: url("../images/contact_bg.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			position: relative;
+			width: 100%;
+			height: 500px;
+			bottom: 0;
+		}
+
+		.contact_content {
+			padding-top: 35px;
+			font-size: 15px;
+		}
+		
+		.contact_header {
+			color: #262626;
+			font-size: 23px;
+			text-align: center;
+			font-family: Bungee;
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+
+		td{
+			padding-left: 9px;
+			padding-right: 9px;
+			text-align: left;
+		}
+		td > img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.contact_icon_mail {
+			width: 24px;
+			height: auto;
+		}
+		.contact_icon_location {
+			width: 17px;
+			height: auto;
+		}
+		.contact_icon_telephone {
+			width: 29px;
+			height: auto;
+		}
+		.contact_form_container {
+			text-align: center;
+			display: inline-block;
+		}
+		.contact_form_sub_container {
+			margin-top: 12px;
+		}
+
+		.curved_form {
+			border-radius: 50px;
+			margin-top: 7px;
+		}
+		.curved_area {
+			border-radius: 15px;
+			margin-top: 7px;
+		}
+		.button_submit {
+			font-family: Bungee;
+			border: 0;
+			box-shadow: none;
+			background-color: #262626;
+			border-radius: 5px;
+			color: #f39c12;
+			height: 33px;
+			width: 160px;
+			margin-top: 24px;
+		}
+			
+
+
+
+	
+
+/*  (col-) ##Screen = B/w 575 below
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	*/
+	@media (max-width: 575px) {
+		.form-inline {
+			display: block;
+		}
+	}
+
+/* 	(col-sm-) ##Screen = B/w 576px to 767px
+	##Device = Tablets, Ipads (portrait)
+	*/
+	@media (min-width: 576px) and (max-width: 767px) {
+	  
+		.form-inline {
+			display: block;
+		}
+
+			
+	}
+
+/*	(col-md-) ##Screen = B/w 768px to 991px 
+ 	##Device = Tablets, Ipads (portrait)
+	*/
+	@media (min-width: 768px) and (max-width: 991px) {
+  		.form-inline {
+			display: block;
+		}
+
+		
+	  
+	}
+
+/* OTHER SIZES */
+	
+
+
+
+	/* 	(col-lg-) ##Screen = B/w 992px to 1199px 
+		##Device = Laptops, Desktops 
+		*/
+		@media (min-width: 992px) and (max-width: 1199px) {
+
+		}
+
+
+	/*	(col-xl-) ##Screen = 1200px to higher resolution desktops 
+	 	##Device = Desktops 
+		*/
+		@media (min-width: 1200px) {
+
+		}
+
+
+
+
+

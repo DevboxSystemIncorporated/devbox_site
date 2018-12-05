@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "Bungee";
+	src: url("../fonts/Bungee-Regular.ttf");
+}
+@font-face {
+	font-family: "EncodeSansCondensed-Bold";
+	src: url("../fonts/EncodeSansCondensed-Bold.ttf");
+}
+
+@font-face {
+	font-family: "EncodeSansCondensed-Regular";
+	src: url("../fonts/EncodeSansCondensed-Regular.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-Bold";
+	src: url("../fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-Italic";
+	src: url("../fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-Light";
+	src: url("../fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-LightItalic";
+	src: url("../fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-Regular";
+	src: url("../fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-SemiBold";
+	src: url("../fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-SemiBoldItalic";
+	src: url("../fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-Thin";
+	src: url("../fonts/JosefinSans-Thin.ttf");
+}
+@font-face {
+	font-family: "JosefinSans-ThinItalic";
+	src: url("../fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: "";
+	src: url("../fonts/*****");
+}
+
